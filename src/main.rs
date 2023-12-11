@@ -8,8 +8,8 @@ enum Cmd{
     Tail{n: u32, file: PathBuf}
 }
 
-fn head(n: u32, file: PathBuf){todo!();}
-fn tail(n: u32, file: PathBuf){todo!();}
+fn head(_:u32, _:PathBuf){todo!();}
+fn tail(_: u32, _: PathBuf){todo!();}
 
 fn main() {
     let cmd = Cmd::parse();
